@@ -17,7 +17,7 @@
 - Detect box on field
 
 ## Additional specification of problem
-- Blocks and even box don't have any easy way to recognize them, both have only size specified and rest is ambiguos (color, pattern, ... are not specified)
+- Blocks and even the box don't have any easy way to recognize them, both have only size specified and rest is ambiguos (color, pattern, ... are not specified)
 
 ## Design Ideas
 - camera + trained AI categorization model
