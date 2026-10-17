@@ -21,6 +21,6 @@
 
 ## Design Ideas
 - camera + trained AI categorization model
-- 2 distance senzors (i.e. ultrasonic sensors) one up high, one lower -> one can see only box, one can see blocks and box
+- 2 distance senzors (i.e. ultrasonic sensors) one up high, one lower -> one can see only the box, one can see blocks and the box
 - Ignore detection of blocks and just go back and forth on the field
 
