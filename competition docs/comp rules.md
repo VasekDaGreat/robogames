@@ -13,6 +13,9 @@ This document works as an outline for full rules see [official rules](https://ro
 - The arena floor is white with edges marked by black tape
 - in one corner there is the target which is either just a marked area or a box
 - At the start there are 6 lego duplo sized blocks randomly placed in the arena
+- Robot starts at one corner.
+- Box is placed at the corner diagonaly from the start.
+- Box size: 21 x 21 x 10 with backboard at least 30 cm high
 
 ## goals
 - bring the blocks into the marked area/box
