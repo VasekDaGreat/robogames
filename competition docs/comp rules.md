@@ -4,7 +4,7 @@ This document works as an outline for full rules see [official rules](https://ro
 
 ## Robot limitations
 - use any HW and SW you want
-- max 25cm x 25cm width x height
+- max 25cm x 25cm width x length
 - unlimited robot height
 - unlimited robot weight
 
