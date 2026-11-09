@@ -1,0 +1,87 @@
+{
+  "source": "port:COM6",
+  "mode": "time",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python": "3.15.2",
+  "time_start_utc": "2026-11-09T12:35:49.018739+00:00",
+  "interrupted": false,
+  "error": null,
+  "SCIP2.0_status": "0E",
+  "VV": {
+    "raw": "VV\n00P\nVEND:Hokuyo Automatic Co.,Ltd.;[\nPROD:SOKUIKI Sensor URG-04LX(Classic-URG);I\nFIRM:3.4.03(17/Dec./2012);T\nPROT:SCIP 2.0;N\nSERI:H1302952;K\n\n",
+    "status": "00",
+    "values": {
+      "VEND": "Hokuyo Automatic Co.,Ltd.",
+      "PROD": "SOKUIKI Sensor URG-04LX(Classic-URG)",
+      "FIRM": "3.4.03(17/Dec./2012)",
+      "PROT": "SCIP 2.0",
+      "SERI": "H1302952"
+    }
+  },
+  "PP": {
+    "raw": "PP\n00P\nMODL:URG-04LX(Classic-URG)(Hokuyo Automatic Co.,Ltd.);<\nDMIN:20;4\nDMAX:5600;_\nARES:1024;\\\nAMIN:44;7\nAMAX:725;o\nAFRT:384;6\nSCAN:600;e\n\n",
+    "status": "00",
+    "values": {
+      "MODL": "URG-04LX(Classic-URG)(Hokuyo Automatic Co.,Ltd.)",
+      "DMIN": "20",
+      "DMAX": "5600",
+      "ARES": "1024",
+      "AMIN": "44",
+      "AMAX": "725",
+      "AFRT": "384",
+      "SCAN": "600"
+    }
+  },
+  "II": {
+    "raw": "II\n00P\nMODL:URG-04LX(Classic-URG)(Hokuyo Automatic Co.,Ltd.);<\nLASR:OFF;7\nSCSP:Initial(600[rpm])<-Default setting by user;A\nMESM:IDLE;:\nSBPS:19200[bps]<-Default setting by user;A\nTIME:11F487;d\nSTAT:Sensor works well.;8\n\n",
+    "status": "00",
+    "values": {
+      "MODL": "URG-04LX(Classic-URG)(Hokuyo Automatic Co.,Ltd.)",
+      "LASR": "OFF",
+      "SCSP": "Initial(600[rpm])<-Default setting by user",
+      "MESM": "IDLE",
+      "SBPS": "19200[bps]<-Default setting by user",
+      "TIME": "11F487",
+      "STAT": "Sensor works well."
+    }
+  },
+  "start_step": 44,
+  "end_step": 725,
+  "cluster": 1,
+  "chars_per_value": 3,
+  "command": "MD0044072501000",
+  "time_end_utc": "2026-11-09T12:35:54.893805+00:00",
+  "duration_s": 5.875018100021407,
+  "params": {
+    "DMIN": 20,
+    "DMAX": 5600,
+    "ARES": 1024,
+    "AMIN": 44,
+    "AMAX": 725,
+    "AFRT": 384,
+    "SCAN": 600
+  },
+  "summary": {
+    "scans_total": 51,
+    "scans_valid": 51,
+    "scans_invalid": 0,
+    "count_check_passed": 51,
+    "points_total": 34782,
+    "points_valid": 14888,
+    "points_invalid": 19894,
+    "distance_min_mm": 203.0,
+    "distance_max_mm": 5415.0,
+    "distance_mean_mm": 1698.8534390112843,
+    "invalid_raw_values_in_valid_scans": {
+      "0 (objekt možná ve vzdálenosti 22 m)": 13284,
+      "6 (objekt možná ve vzdálenosti 5,7 m)": 5977,
+      "7 (chyba v předchozím i následujícím kroku)": 626,
+      "15 (jiné)": 2,
+      "10 (jiné)": 5
+    },
+    "checksum_errors": 0,
+    "unknown_status": 0,
+    "retries": 0,
+    "skipped_replies": 0
+  }
+}
