@@ -11,12 +11,12 @@ Both measurements were taken on 2026-11-09 with `urg04lx.py` in continuous mode
 
 | Folder | Scene | Valid points | Distance range |
 |---|---|---|---|
-| [mereni_6_kostek](mereni_6_kostek) | 6 LEGO Duplo bricks, as at the start of a round | 12 317 / 34 782 (35 %) | 206–5393 mm |
-| [mereni_s_krabici](mereni_s_krabici) | bricks with the target box (21 × 21 × 10 cm, backboard ≥ 30 cm) | 14 888 / 34 782 (43 %) | 203–5415 mm |
+| [measurement_6_bricks](measurement_6_bricks) | 6 LEGO Duplo bricks, as at the start of a round | 12 317 / 34 782 (35 %) | 206–5393 mm |
+| [measurement_with_box](measurement_with_box) | bricks with the target box (21 × 21 × 10 cm, backboard ≥ 30 cm) | 14 888 / 34 782 (43 %) | 203–5415 mm |
 
 Recorded with:
 
-    python urg04lx.py --port COM6 --mode time --seconds 5 --out mereni_6_kostek
+    python urg04lx.py --port COM6 --mode time --seconds 5 --out measurement_6_bricks
 
 ## Files in each folder
 
@@ -46,11 +46,11 @@ Invalid points are kept (not removed or interpolated), only marked `valid = 0`.
 
 ```python
 import numpy as np
-d = np.load("mereni_6_kostek/scans.npz")
+d = np.load("measurement_6_bricks/scans.npz")
 ok = d["valid"] == 1
 x, y = d["x_mm"][ok], d["y_mm"][ok]
 ```
 
 To regenerate the scatter plot from raw data:
 
-    python ../code/lidar/urg04lx.py --parse mereni_6_kostek/raw.txt --out mereni_6_kostek_plot --plot
+    python ../code/lidar/urg04lx.py --parse measurement_6_bricks/raw.txt --out measurement_6_bricks_plot --plot
