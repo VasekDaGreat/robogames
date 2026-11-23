@@ -5,14 +5,13 @@
 -
 
 ### Drivetrain
-- mecanum wheels -> size tbd
-- 
+- mecanum wheels 6cm 
+- 12V DC Motors
 
 ### electronics
-- Raspberry pi
--
+- Raspberry pi 4 
+- Nexus duino
+
 
 ## Software
 - python
-
-
